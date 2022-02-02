@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+html{
+    background-image: url("/images/pbd.svg");
+    background-repeat: no-repeat;
+    overflow: scroll;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+*{
+    box-sizing: border-box;
+
+}
+h1{
+    font-weight: 900;
+}
+
+a:hover{
+    color: hsl(224, 23%, 55%);
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    border-radius: 2rem;
+}
+.card img{
+ border-radius: 2rem 2rem 0rem 0rem;
+}
+.article p{
+    font-size: 16px;
+    font-weight: 500;
+}
+#play{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+}
+.playbox{
+    border-radius: 1rem;
+    background-color:  hsl(225, 100%, 98%);
+    padding: 0;
+}
+.playbox p{
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+.playbox h4{
+    margin-left:0.5rem;
+}
+.playbox span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.playbox img{
+    margin-top: 10px;
+}
+.btn button{  
+margin: 0.5rem 0rem;  
+border-radius: 0.5rem;
+font-weight: 700;
+}
+.btn1 button{
+    background-color: hsl(245, 75%, 52%);
+    padding: 0.8rem 4rem;
+    color: beige;
+}
+.btn1 button:hover{
+    background-color: hsl(224, 27%, 46%);
+}
+.btn2 button{
+    background-color: white;
+    margin-bottom: 1.5rem;
+    padding: 0.6rem 2rem;
+    color:dimgray;
+    border-style: hidden;
+}
+.btn2 button:hover{
+   color: rgb(235, 201, 201);
+}
+@media (max-width:500px){
+    .img img{
+        width: 100%;
+    }
+    .container{
+        margin-right: 2px;
+    }
+  
+}
