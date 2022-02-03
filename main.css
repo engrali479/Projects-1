@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 html{
-    background-image: url("/images/pbd.svg");
+    background-image: url("./images/pbd.svg");
     background-repeat: no-repeat;
     overflow: scroll;
     font-family: 'Red Hat Display', sans-serif;
